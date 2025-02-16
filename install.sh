@@ -14,7 +14,7 @@ brew install sevenzip git git-flow gh stow nushell tmux zellij yazi zoxide jesse
 
 # install dotfiles
 git clone https://github.com/ferdinandkeller/dotfiles.git
-stow -t ~ dotfiles
+cd ~/dotfiles && stow .
 
 # install apps
 brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code docker google-chrome
