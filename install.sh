@@ -6,6 +6,9 @@ cd ~
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
+# enable brew in current shell manually
+eval "$(/opt/homebrew/bin/brew shellenv)"
+
 # install cli tools
 brew install sevenzip git git-flow gh stow nushell tmux zellij yazi zoxide jesseduffield/lazygit/lazygit neovim gcc fzf ripgrep fd uv
 
