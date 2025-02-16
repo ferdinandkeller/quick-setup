@@ -23,5 +23,5 @@ brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostt
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # lazy vim
-# git clone https://github.com/LazyVim/starter ~/.config/nvim
-# rm -rf ~/.config/nvim/.git
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
