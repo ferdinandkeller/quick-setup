@@ -1,8 +1,5 @@
 #!/bin/bash
 
-# make sure we are in the home directory
-cd ~
-
 # install homebrew
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 
@@ -19,16 +16,18 @@ brew install \
   uv \
   helm
 
-# install dotfiles
-git clone https://github.com/ferdinandkeller/dotfiles.git
-cd ~/dotfiles && stow .
-
 # install apps
 brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code docker google-chrome
+
+# install dotfiles
+cd ~
+git clone https://github.com/ferdinandkeller/dotfiles.git
+cd dotfiles
+stow .
 
 # install oh-my-zsh
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # lazy vim
-git clone https://github.com/LazyVim/starter ~/.config/nvim
-rm -rf ~/.config/nvim/.git
+# git clone https://github.com/LazyVim/starter ~/.config/nvim
+# rm -rf ~/.config/nvim/.git
