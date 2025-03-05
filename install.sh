@@ -9,7 +9,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 # install cli tools
 brew install \
   sevenzip \
-  git git-flow gh stow \
+  direnv git git-flow gh stow \
   nushell tmux zellij yazi zoxide \
   jesseduffield/lazygit/lazygit jesseduffield/lazydocker/lazydocker \
   neovim gcc fzf ripgrep fd \
