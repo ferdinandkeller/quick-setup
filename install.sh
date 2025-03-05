@@ -17,7 +17,7 @@ brew install \
   helm
 
 # install apps
-brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code docker google-chrome
+brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code visual-studio-code@insiders docker google-chrome
 
 # install dotfiles
 cd ~
