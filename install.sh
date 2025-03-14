@@ -14,7 +14,8 @@ brew install \
   jesseduffield/lazygit/lazygit jesseduffield/lazydocker/lazydocker \
   neovim gcc fzf ripgrep fd \
   uv \
-  helm
+  helm \
+  ollama
 
 # install apps
 brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code visual-studio-code@insiders docker google-chrome
