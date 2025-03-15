@@ -13,7 +13,7 @@ brew install \
   nushell tmux zellij yazi zoxide \
   jesseduffield/lazygit/lazygit jesseduffield/lazydocker/lazydocker \
   neovim gcc fzf ripgrep fd \
-  uv \
+  uv nvm \
   helm \
   ollama
 
