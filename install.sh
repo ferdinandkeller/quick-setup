@@ -14,7 +14,6 @@ brew install \
   jesseduffield/lazygit/lazygit jesseduffield/lazydocker/lazydocker \
   neovim gcc fzf ripgrep fd \
   uv nvm \
-  helm \
   ollama
 
 # install apps
