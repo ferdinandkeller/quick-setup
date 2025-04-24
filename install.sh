@@ -12,7 +12,7 @@ brew install \
   direnv git git-flow gh stow \
   nushell tmux zellij yazi zoxide \
   jesseduffield/lazygit/lazygit jesseduffield/lazydocker/lazydocker \
-  neovim gcc fzf ripgrep fd \
+  neovim gcc fzf ripgrep fd just \
   uv nvm \
   ollama
 
