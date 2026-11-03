@@ -8,26 +8,23 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # install cli tools
 brew install \
-  sevenzip \
-  direnv git git-flow gh stow \
-  nushell tmux zellij yazi zoxide \
-  jesseduffield/lazygit/lazygit jesseduffield/lazydocker/lazydocker \
-  neovim gcc fzf ripgrep fd just \
-  uv nvm \
-  ollama
+  sevenzip zstd ffmpeg x264 x265 xz gmp gnupg wget tree-sitter \
+  git gh jj stow just mise \
+  zellij zoxide \
+  neovim gcc fzf ripgrep fd httpie yq
 
 # install apps
-brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code visual-studio-code@insiders docker google-chrome
+brew install --cask font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code docker google-chrome claude datagrip slack notion notion-calendar
 
-# install dotfiles
+# install dotfiles (contains personal configuration)
 cd ~
 git clone https://github.com/ferdinandkeller/dotfiles.git
 cd dotfiles
 stow .
 
 # install oh-my-zsh
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # lazy vim
-# git clone https://github.com/LazyVim/starter ~/.config/nvim
-# rm -rf ~/.config/nvim/.git
+git clone https://github.com/LazyVim/starter ~/.config/nvim
+rm -rf ~/.config/nvim/.git
