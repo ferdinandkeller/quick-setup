@@ -143,8 +143,7 @@ defaults write com.apple.desktopservices DSDontWriteUSBStores -bool true
 
 killall Dock Finder SystemUIServer 2>/dev/null
 
-log "Done! Log out and back in so the keyboard settings fully apply."
-[ -d "$BACKUP_DIR" ] && echo "Replaced files were backed up to $BACKUP_DIR"
+log "Done! You should probably log out and back in."
 
 # open link to Umbra page
 open "https://replay.software/umbra"
