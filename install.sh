@@ -124,7 +124,7 @@ defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool false
 
 # --- Finder ---
 # show files extensions
-defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+defaults write com.apple.finder AppleShowAllExtensions -bool true
 # column view
 defaults write com.apple.finder FXPreferredViewStyle -string "clmv"
  # no grouping
