@@ -55,7 +55,7 @@ brew install \
 log "Installing apps"
 brew install --cask \
   font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code \
-  docker google-chrome claude datagrip slack notion notion-calendar
+  docker google-chrome claude datagrip slack notion notion-calendar tailscale
 
 # ---------------------------------------------------------------------------
 # Oh My Zsh: runs BEFORE stow so it won't overwrite .zshrc
