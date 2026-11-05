@@ -14,7 +14,7 @@ DOCK_APPS=(
   "/Applications/Claude.app"
   "/Applications/Google Chrome.app"
   "/Applications/Safari.app"
-  "/Applications/Mail.app"
+  "/System/Applications/Mail.app"
   "/Applications/Visual Studio Code.app"
   "/Applications/Docker.app"
   "/Applications/DataGrip.app"
