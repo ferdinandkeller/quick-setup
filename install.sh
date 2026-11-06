@@ -15,6 +15,7 @@ DOCK_APPS=(
   "/Applications/Google Chrome.app"
   "/Applications/Safari.app"
   "/System/Applications/Mail.app"
+  "/System/Applications/Calendar.app"
   "/Applications/Visual Studio Code.app"
   "/Applications/Docker.app"
   "/Applications/DataGrip.app"
@@ -55,7 +56,7 @@ brew install \
 log "Installing apps"
 brew install --cask \
   font-jetbrains-mono-nerd-font 1password 1password-cli ghostty visual-studio-code \
-  docker google-chrome claude datagrip slack notion notion-calendar tailscale
+  docker google-chrome claude datagrip slack notion notion-calendar tailscale gcloud-cli
 
 # ---------------------------------------------------------------------------
 # Oh My Zsh: runs BEFORE stow so it won't overwrite .zshrc
