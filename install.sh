@@ -47,7 +47,7 @@ eval "$(/opt/homebrew/bin/brew shellenv)"
 
 log "Installing CLI tools"
 brew install \
-  sevenzip zstd ffmpeg x264 x265 xz gmp gnupg wget tree-sitter \
+  sevenzip zstd ffmpeg libmagic x264 x265 xz gmp gnupg wget tree-sitter \
   git gh jj stow just mise \
   zellij zoxide \
   neovim gcc fzf ripgrep fd httpie yq \
